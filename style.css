@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+   
+    
+}
+
+.content{
+  
+    width:100px;
+    height:100vh;
+    background-image:url(background.png);
+    background-size:cover ;
+    background-position: center;
+    position: relative;
+    overflow:hidden;
+}
+
+#btn{
+color : white;
+padding: 10px;
+background :transparent;
+border: 2px solid white;
+border-radius: 40px;
+outline: none;
+cursor:pointer;
+font-family: "montserrat";
+transition:0.8s;
+
+}
+
+
+
+#btn:hover{
+    background-color:black;
+    color:white;
+}
+
+
+.cont{
+   
+    color:white;
+    position:absolute;
+    left:8%;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    
+    
+}
+.bubble img{
+
+    width:50px;
+    margin-left: 45px;
+   margin-right: 45px;
+    animation: bubble 7s linear infinite;
+    
+}
+.bubble{
+    width:100%;
+    display: flex;
+    align-items: center;
+   
+    position:absolute;
+    bottom:-70px;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity:0;
+    }
+
+    50%{
+
+        opacity:1;
+    }
+
+    70%{
+
+        opacity:1;
+    }
+
+    100%{
+        transform: translateY(-80vh);
+        opacity:0;
+    }
+}
+
+
+.bubble img:nth-child(1){
+    animation-delay: 2s;
+}
+
+
+.bubble img:nth-child(2){
+    animation-delay: 3s;
+}
+
+
+.bubble img:nth-child(3){
+    animation-delay: 1s;
+}
+
+
+.bubble img:nth-child(4){
+    animation-delay:4s;
+}
+
+
+.bubble img:nth-child(5){
+    animation-delay: 2.5s;
+}
+
+
+.bubble img:nth-child(6){
+    animation-delay:4s;
+}
+
+
+.bubble img:nth-child(7){
+    animation-delay: 1s;
+}
+
+
+
+.bubble img:nth-child(8){
+    animation-delay: 3s;
+}
+
+
+.bubble img:nth-child(9){
+    animation-delay: 1s;
+}
+
+
+
+.bubble img:nth-child(10){
+    animation-delay: 4.2s;
+}
+
+
+.bubble img:nth-child(11){
+    animation-delay: 3.4s;
+}
+
+
+.bubble img:nth-child(12){
+    animation-delay: 5s;
+}
+
+
+#sidebar li{
+
+    color: black;
+    font-size: 25px;
+    text-align:center;
+    transition: 0.8 sec;
+    overflow:auto;
+opacity:1;
+
+}
+
+#sai{
+    opacity:0;
+
+}
